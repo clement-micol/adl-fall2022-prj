@@ -6,7 +6,7 @@ Term: Fall 2022
 + Projec title: Detecting Cancer Metastases on Gigapixel Pathology Images
 + Team members
 	+ Clement Micol (MC5104)
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Project summary: The goal of this project is to detect Cancer Metastases (or tumor) on Gigapixel Pathology Images. To do so, we transform this problem from an object detection to a classification problem. Indeed, we split the gigapixel images into smaller patches of images where we looked whether this smaller patch has a Cancer Metastases pixel in it or not. Our model is then capable of generating a heatmap when fed a Pathology Images, detecting which part of the cells are the most likely to be cancerous!
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
