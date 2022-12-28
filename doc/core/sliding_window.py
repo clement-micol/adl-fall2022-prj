@@ -10,7 +10,7 @@ import argparse
 from PIL import Image
 import re
 import time
-os.chdir("/home/adl.mc5104/adl-fall2022-prj")
+os.chdir("C:\\Users\\aroni\\Documents\\adl-f22\\adl-fall2022-prj")
 from doc.core.utils import custom_logger
 
 def read_slide(slide, pos, level, dimension, as_float=False):
